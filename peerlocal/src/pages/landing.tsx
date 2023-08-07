@@ -51,7 +51,7 @@ const Landing: NextPage = () => {
               <h2 className="card-title">Decisions</h2>
               <p>Vote now for existing proposals in our Community DAO</p>
               <div className="card-actions">
-                <button className="btn-inactive btn">Coming soon...</button>
+                <button className="btn-inactive btn">GO TO VOTE</button>
               </div>
             </div>
           </div>
