@@ -18,10 +18,10 @@ const Landing: NextPage = () => {
     ipfsHash: h,
   });
 
-  const LandingPage = () => {
-    const handleButtonClick = () => {
-      window.location.href = 'https://pee-rwallet-zkeq.vercel.app/landing/2';
-    };
+  const handleButtonClick = () => {
+    window.location.href = 'https://pee-rwallet-zkeq.vercel.app/landing/2';
+  };
+  
   {
     /*
   console.log(community.data?.community?.ipfsMetadata)
