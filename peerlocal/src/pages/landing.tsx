@@ -21,7 +21,7 @@ const Landing: NextPage = () => {
   const handleButtonClick = () => {
     window.location.href = 'https://pee-rwallet-zkeq.vercel.app/landing/2';
   };
-  
+
   {
     /*
   console.log(community.data?.community?.ipfsMetadata)
@@ -56,7 +56,7 @@ const Landing: NextPage = () => {
               <h2 className="card-title">Decisions</h2>
               <p>Vote now for existing proposals in our Community DAO</p>
               <div className="card-actions">
-                <button onClick={handleButtonClick} className="btn-inactive btn">GO TO VOTE</button>
+                <button className="btn-inactive btn">GO TO VOTE</button>
               </div>
             </div>
           </div>
