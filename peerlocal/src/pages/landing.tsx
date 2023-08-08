@@ -56,7 +56,9 @@ const Landing: NextPage = () => {
               <h2 className="card-title">Decisions</h2>
               <p>Vote now for existing proposals in our Community DAO</p>
               <div className="card-actions">
-                <button className="btn-inactive btn">GO TO VOTE</button>
+                <Link className="btn-accent btn" href="https://zk-voitng-peer.vercel.app/landingVoting">
+                  go to Vote
+                </Link>
               </div>
             </div>
           </div>
